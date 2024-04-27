@@ -35,6 +35,12 @@ In deze tutorial maken we een zelflerende Agent dat wordt geconfronteerd met een
   
 ### Training agent: 
 - Om de agent te trainen, gebruiken we Anaconda Navigator. Hier maak je een omgeving aan en open je de terminal. Navigeer naar je repository in de geopende terminal en voer het volgende commando uit: "mlagents-learn config/CubeAgent.yaml --run-id=CubeAgent"
+- 
+###Tensor board:
+Ik heb problemen met het trainen van mijn agent opgelost door het beloningssysteem aan te passen. Nu straf ik het voor overmatig springen en beloon ik het voor het vermijden van obstakels. Hierdoor leert mijn agent efficiënter, maar een grote straf kan de indruk wekken dat het niet goed leert.Je moet zelf zien wat de beste rewardering parameters zijn voor uw agent. Wat ik ook heb gedaan, is mijn scenario omgezet naar een prefab en dit meerdere keren gekopieerd en geplakt. Hierdoor kon mijn agent veel sneller trainen. Hieronder een screenshot van mijn tensorboard.
+![image](https://github.com/AP-IT-GH/jumper-assignment-Henried1/assets/96701358/1fc6518e-8d14-4aec-8fcf-a284cc1505c9)
+
+
 
 ### Conclusie:
 - Door de stappen in deze tutorial te volgen, kun je een gameomgeving maken waarin een jumper agent obstakels kan ontwijken door te springen. Experimenteer met verschillende parameters en trainingsmethoden om de prestaties van je agent te verbeteren
