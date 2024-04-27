@@ -1,0 +1,65 @@
+{
+    "Agent_Jumper": {
+        "checkpoints": [
+            {
+                "steps": 1499944,
+                "file_path": "results\\AgentJumper\\Agent_Jumper\\Agent_Jumper-1499944.onnx",
+                "reward": -0.1287499964237213,
+                "creation_time": 1714216782.5273957,
+                "auxillary_file_paths": [
+                    "results\\AgentJumper\\Agent_Jumper\\Agent_Jumper-1499944.pt"
+                ]
+            },
+            {
+                "steps": 1999998,
+                "file_path": "results\\AgentJumper\\Agent_Jumper\\Agent_Jumper-1999998.onnx",
+                "reward": -0.025214813779867083,
+                "creation_time": 1714218458.3263657,
+                "auxillary_file_paths": [
+                    "results\\AgentJumper\\Agent_Jumper\\Agent_Jumper-1999998.pt"
+                ]
+            },
+            {
+                "steps": 2499938,
+                "file_path": "results\\AgentJumper\\Agent_Jumper\\Agent_Jumper-2499938.onnx",
+                "reward": -0.01803363870796591,
+                "creation_time": 1714220283.1983047,
+                "auxillary_file_paths": [
+                    "results\\AgentJumper\\Agent_Jumper\\Agent_Jumper-2499938.pt"
+                ]
+            },
+            {
+                "steps": 2999999,
+                "file_path": "results\\AgentJumper\\Agent_Jumper\\Agent_Jumper-2999999.onnx",
+                "reward": -0.001909091031517495,
+                "creation_time": 1714221934.175843,
+                "auxillary_file_paths": [
+                    "results\\AgentJumper\\Agent_Jumper\\Agent_Jumper-2999999.pt"
+                ]
+            },
+            {
+                "steps": 3194039,
+                "file_path": "results\\AgentJumper\\Agent_Jumper\\Agent_Jumper-3194039.onnx",
+                "reward": -0.027754098161688594,
+                "creation_time": 1714222597.7742064,
+                "auxillary_file_paths": [
+                    "results\\AgentJumper\\Agent_Jumper\\Agent_Jumper-3194039.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3194039,
+            "file_path": "results\\AgentJumper\\Agent_Jumper.onnx",
+            "reward": -0.027754098161688594,
+            "creation_time": 1714222597.7742064,
+            "auxillary_file_paths": [
+                "results\\AgentJumper\\Agent_Jumper\\Agent_Jumper-3194039.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

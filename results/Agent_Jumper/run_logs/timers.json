@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1714199071",
+        "python_version": "3.9.19 (main, Mar 21 2024, 17:21:27) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\henry\\anaconda3\\envs\\agent2\\Scripts\\mlagents-learn config/Agent.yaml --run-id=Agent_Jumper --resume",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1714199081"
+    },
+    "total": 10.473970600000001,
+    "count": 1,
+    "self": 0.012887500000001495,
+    "children": {
+        "run_training.setup": {
+            "total": 0.28150809999999993,
+            "count": 1,
+            "self": 0.28150809999999993
+        },
+        "TrainerController.start_learning": {
+            "total": 10.179575,
+            "count": 1,
+            "self": 0.0006005999999967315,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 10.178956500000002,
+                    "count": 1,
+                    "self": 10.178956500000002
+                },
+                "trainer_threads": {
+                    "total": 2.3000000002326715e-06,
+                    "count": 1,
+                    "self": 2.3000000002326715e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 1.5600000001114722e-05,
+                    "count": 1,
+                    "self": 1.5600000001114722e-05
+                }
+            }
+        }
+    }
+}
