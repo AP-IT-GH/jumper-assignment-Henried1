@@ -22,7 +22,7 @@ In deze tutorial maken we een zelflerende Agent dat wordt geconfronteerd met een
 ## Agent Reward functie:
 - -0.001 penalty wanneer onze agent spring. Dit voorkomt dat de agent teveel springt.
 - 0.5 reward wanneer obstacle muur aanraakt. Dit betekend dat de agent heeft gesprongen.
-- -1.O penalty wanneer agent en obstacle botsen. Dit geeft de agent motivatie om te springen.
+- -1.0 penalty wanneer agent en obstacle botsen. Dit geeft de agent motivatie om te springen.
 
 ## Behavior parameters:
 - Space size: 0
